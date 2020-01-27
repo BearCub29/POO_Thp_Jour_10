@@ -66,7 +66,7 @@ class Event
     puts ">Titre : #{title}"
     puts ">Date de début : #{start_date.strftime("%Y-%m-%d %H:%M:%S")}"
     puts ">Durée : #{duration} minutes"
-    puts ">Invités : #{attendees.join(" ; ")}"
+    puts ">Invités : #{attendees}"
   end
 end
 
